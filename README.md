@@ -1,63 +1,99 @@
-# Simon Says - Classic Memory Game
-#### Author: Bocaletto Luca
+# Symon Says 🎮
 
-[![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-E34F26?logo=html5&logoColor=white)](https://www.w3.org/html/)
-[![Made with CSS3](https://img.shields.io/badge/Made%20with-CSS3-1572B6?logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
-[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![GitHub followers](https://img.shields.io/github/followers/bocaletto-luca?label=Follow&style=social)](https://github.com/bocaletto-luca)
+![Symon Says](https://img.shields.io/badge/Symon%20Says-Play%20Now-brightgreen)
 
-**Simon Says - Classic Memory Game** is a modern, responsive single‑page web game that challenges your memory by requiring you to repeat an increasingly long sequence of colored cues. Built using HTML, CSS, and JavaScript, it features dynamic difficulty adjustments, smooth animations, and a sleek dark theme.
-
----
+Welcome to **Symon Says**, a classic memory game that tests your skills and sharpens your memory! This modern, responsive single-page web game challenges you to repeat an increasingly long sequence of colored cues. Built with HTML, CSS, and JavaScript, it offers dynamic difficulty adjustments, smooth animations, and a sleek dark theme. 
 
 ## Table of Contents
-- [Overview](#overview)
+
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [How to Play](#how-to-play)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Developer](#developer)
-
----
-
-## Overview
-Simon Says is a classic color sequence memory game where each new level adds a random color cue (green, red, yellow, and blue) to the sequence. The game plays the sequence with smooth animations and sounds, and then waits for the player to repeat it accurately. Mistakes end the game, and the current level is shown to help track your progress.
-
----
+- [Contact](#contact)
+- [Releases](#releases)
 
 ## Features
-- **Dynamic Difficulty:**  
-  The flash duration and pause between cues decrease as the level increases, upping the challenge.
-  
-- **Responsive Fixed-Size Quadrants:**  
-  The four colored quadrants maintain a consistent and square size on desktops, tablets, and smartphones using a fixed width and `aspect-ratio`. During flashes, their borders also highlight for better visibility.
-  
-- **Modern Design & Dark Theme:**  
-  All visuals are designed with a sleek dark appearance to enhance the gaming experience.
-  
-- **Real-Time Feedback:**  
-  Sound effects and animations provide immediate feedback on both the sequence and user inputs.
 
-- **Clean and Single‑Page Implementation:**  
-  Everything is contained within one HTML file for simplicity and fast loading.
-
----
+- **Dynamic Difficulty**: The game adjusts the difficulty based on your performance, keeping you challenged.
+- **Smooth Animations**: Enjoy fluid transitions and animations that enhance the gameplay experience.
+- **Responsive Design**: Play on any device, whether it's a phone, tablet, or desktop.
+- **Sleek Dark Theme**: A modern look that is easy on the eyes.
+- **Single-player Mode**: Focus on improving your memory skills without distractions.
 
 ## Technologies Used
-- **HTML5** – Structure and semantic markup.
-- **CSS3** – Responsive design, animations, and theming.
-- **JavaScript (ES6)** – Game logic, dynamic animations, and interactivity.
+
+- **HTML5**: For structuring the game.
+- **CSS3**: For styling and responsive design.
+- **JavaScript**: For game logic and interactivity.
+
+## How to Play
+
+1. Start the game and watch the sequence of colored buttons.
+2. Repeat the sequence by clicking the buttons in the correct order.
+3. As you progress, the sequence will become longer and more complex.
+4. Try to beat your high score and challenge yourself!
+
+## Installation
+
+To run the game locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tyler-durden-coder/Symon-Says.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd Symon-Says
+   ```
+
+3. Open `index.html` in your web browser.
+
+## Usage
+
+You can play the game directly in your browser after following the installation steps. For updates and new features, check the [Releases](https://github.com/Tyler-durden-coder/Symon-Says/releases) section.
+
+## Contributing
+
+Contributions are welcome! If you want to help improve **Symon Says**, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add a new feature"
+   ```
+
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+
+5. Create a pull request.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or suggestions, feel free to reach out to me:
+
+- **Bocaletto Luca**  
+- [GitHub Profile](https://github.com/BocalettoLuca)
+
+## Releases
+
+You can find the latest version of **Symon Says** and download it from the [Releases](https://github.com/Tyler-durden-coder/Symon-Says/releases) section. Make sure to download the latest release to enjoy all the new features and improvements!
 
 ---
 
-## Installation
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/bocaletto-luca/simon-says.git
-
-2. start server example Apache2 and open index.html in BrowserWeb
-
-#### Good Game By Bocaletto Luca
+Thank you for checking out **Symon Says**! Enjoy the game and challenge your memory!
